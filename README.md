@@ -20,6 +20,12 @@ V2 From https://www.kaggle.com/code/guptaachal02/fine-tuning-cnn where he has fi
 
 V1's AE didnt perform well leading to a poor confusion matrix
 
+V3 and V4 focus on using simple CNNs for binary classification of 'REAL/FAKE' while using GRAD-CAM
+
+Here's a [BLOG](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images/discussion/406489) indicating use of Resnet on CIFAKE Dataset training with 10000 epochs obtaining 87% accuracy on test data.
+
+I infer on having using architecture like Resnet with deep network(around 50 layers) and finding the layers which dictates the  judgement for fake on various scenarious by trial and error.
+
 <p align="center">
   <img src="image.png" alt="V1 Confusion Matrix" width="90%" />
 </p>
