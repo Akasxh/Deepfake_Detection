@@ -1,8 +1,6 @@
 # Deepfake_Detection
 
-We can use a Diffusion Model for generating a image from https://github.com/ZhendongWang6/DIRE/blob/main/guided-diffusion/README.md
-
-
+We can use a Diffusion Model for generating a image from DIRE'S [Paper](https://github.com/ZhendongWang6/DIRE/blob/main/guided-diffusion/README.md)
 
 Additionally this [Paper](https://paperswithcode.com/paper/cifake-image-classification-and-explainable) implements explainable AI via Gradient Class Activation Mapping(GRAD-CAM) to explore which features within the images are useful for classification. Interpretation reveals interesting concepts within the image, in particular, noting that the actual entity itself does not hold useful information for classification; instead, the model focuses on small visual imperfections in the background of the images.
 
