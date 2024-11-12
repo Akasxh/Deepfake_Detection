@@ -2,6 +2,10 @@
 
 We can use a Diffusion Model for generating a image from https://github.com/ZhendongWang6/DIRE/blob/main/guided-diffusion/README.md
 
+https://paperswithcode.com/paper/cifake-image-classification-and-explainable
+
+Additionally this paper :implements explainable AI via Gradient Class Activation Mapping to explore which features within the images are useful for classification. Interpretation reveals interesting concepts within the image, in particular, noting that the actual entity itself does not hold useful information for classification; instead, the model focuses on small visual imperfections in the background of the images.
+
 Paper 2&3 Key Features: DIRE(DIffusion Reconstruction Error) & AEROBLADE(autoencoder reconstruction-based latent diffusion detection)
 
 - Reconstruction Error-Based Detection: Utilizes discrepancies in reconstruction accuracy to detect generated images with high precision.
