@@ -1,8 +1,12 @@
 # Deepfake_Detection
 
-Paper 3 Key Features: AEROBLADE (autoencoder reconstruction-based latent diffusion detection)
+We can use a Diffusion Model for generating a image from https://github.com/ZhendongWang6/DIRE/blob/main/guided-diffusion/README.md
+
+Paper 2&3 Key Features: DIRE(DIffusion Reconstruction Error) & AEROBLADE(autoencoder reconstruction-based latent diffusion detection)
 
 - Reconstruction Error-Based Detection: Utilizes discrepancies in reconstruction accuracy to detect generated images with high precision.
+
+- Can use pretrained AE or GANs or Diffusion Models for image synthesis for reconstruction rate
 
 - No Training Required: Unlike other methods, AEROBLADE does not rely on extensive model training, making it simple and efficient.
 
