@@ -13,5 +13,5 @@ V2 From https://www.kaggle.com/code/guptaachal02/fine-tuning-cnn where he has fi
 V1's AE didnt perform well leading to a poor confusion matrix
 
 <p align="center">
-![V1](image.png)
+  <img src="image.png" alt="V1 Confusion Matrix" width="90%" />
 </p>
